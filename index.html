@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Caritos blog is a personal website to talk about Tech">
+        <link rel="stylesheet" href="style.css">
+        <title>Carito's Da Silva Blog</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Carito Da Silva</h1>
+            <img class="profilePicture" src="./assets/Caro.png" alt="Profile Picture">
+            <p class="description">Hola! Soy venezolana pero vivo en Chile hace 10 años. Aprendí a programar hace año y medio en Laboratoria
+                y estoy feliz de hacer lo que amo y seguir aprendiendo. Sueño con ser fullstack algún día &hearts;
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Things that i Love</th>
+                        <th>Level 1 to 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Comer pizza</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Bailar</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Ir al cine</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Cocinar</td>
+                        <td>2</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <h3>Favorites Places</h3>
+            <ul>
+                <li>Choroni</li>
+                <li>Buenos Aires</li>
+                <li>Aruba</li>
+                <li>Todo el sur de Chile</li>
+            </ul>
+
+            <a href="https://www.caritodasilva.work/">Click to see my portfolio</a>
+
+            <h3>Contact me:</h3>
+            <p>Leave your information and I will contact you shortly</p>
+            <form action="">
+                <div class="formFieldsContainer">
+                    <div class="formField">
+                        <label for="firstName">First Name:<input type="text" name="" id="firstName"></label>        
+                    </div>
+                    <div class="formField">
+                        <label for="lastName">Last Name:<input type="text" name="" id="lastName"></label>        
+                    </div>
+                    <div class="formField">
+                        <label for="email">Email:<input type="email" name="" id="email"></label>        
+                    </div>
+                    <h3>Urgency Level</h3>                    
+                    <div class="formField urgency">
+                        <label for=""><input type="radio" name="" id="male" class="urgencyLabel">Yes, is urgent</label>
+                        <label for=""><input type="radio" name="" id="female" class="urgencyLabel">Not urgent, i just want to talk</label>
+                    </div>
+                    <h3>Topics of interest:</h3>
+                    <div class="formField urgency">
+                            <label for=""><input type="checkbox" name="" id="male" class="urgencyLabel">Build Website</label>
+                            <label for=""><input type="checkbox" name="" id="female" class="urgencyLabel">Community Manager</label>
+                            <label for=""><input type="checkbox" name="" id="other" class="urgencyLabel">Marketing</label>
+                        </div>
+                    <div class="formField textareaField">
+                        <label for="description">Comments:</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="formField">
+                        <label for="language">How do you prefer to be contacted?
+                            <select name="" id="">
+                                <option value="telephone">Telephone</option>        
+                                <option value="email">Email</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="btnContainer">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        
+    </body>
+</html>
